@@ -42,7 +42,6 @@ export default function App() {
           );
         });
     }
-    setQuery(q => q);
   }, [name, page]);
 
   const handleSubmitForm = value => {
